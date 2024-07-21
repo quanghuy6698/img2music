@@ -1,6 +1,7 @@
-# img2music is a Python tool convert image to music
-# Current Status (Jul 2024): Convert image to Piano song
-## Require Libs
+# img2music
+## A Python tool convert image to music
+## Current Status (Jul 2024): Convert image to Piano song
+### I. Require Libs
 1. Pydub
 ```
    pip install pydub
@@ -16,7 +17,7 @@
      ffmpeg -version
      ```
 
-## Using
+### II. Using
 1. Convert image to pixels
    - Go to folder **src/common/process-img**
    - Execute **pixel-converter.py** to convert an image to pixels, store in a txt file
